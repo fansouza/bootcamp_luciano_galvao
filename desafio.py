@@ -9,8 +9,10 @@ salario = float(input("Digite o seu salário:"))
 # Converte a entrada para um número de ponto flutuante
 valor_bonus = float(input("Digite o valor do bônus:"))
 
+
+BONUS = 1000
 # 4) Calcule o valor do bônus final
-valor_bonus_final = 1000 + salario * valor_bonus
+valor_bonus_final = BONUS + salario * valor_bonus
 
 
 # 5) Imprime a mensagem personalizada incluindo o nome do usuário e o valor do bonus
